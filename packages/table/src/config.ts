@@ -165,6 +165,7 @@ export function treeCellPrefix({
       h('span', {
         class: 'el-table__indent',
         style: { 'padding-left': treeNode.indent + 'px' },
+        'data-width': treeNode.indent + 'px',
       }),
     )
   }
